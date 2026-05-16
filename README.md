@@ -2,7 +2,7 @@
 
 ## Overview
 
-This portfolio website is a single-page web experience built with vanilla HTML, CSS, and JavaScript. It is designed to showcase projects, skills, and contact information while providing a smooth interactive experience across desktop and mobile screens.
+This portfolio website is a one page experience built with vanilla HTML, CSS, and JavaScript. It is designed to showcase projects, skills, and contact information while providing a smooth interactive experience on desktop and mobile screens.
 
 ## System Design
 

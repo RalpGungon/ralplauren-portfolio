@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Outfit:wght@300;400;500&display=swap">
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- MEDIA QUERY -->
+    <link rel="stylesheet" href="media.css">
+    <!-- TITLE -->
+    <title>Ralp Lauren</title>
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Ralp Lauren</div>
+        <ul class="nav__links">
+            <li class="nav_item">
+                <a class="nav_link link" href="#section--1">Projects</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link link" href="#section--2">Skills</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link link" href="#section--3">About</a>
+            </li>
+            <li class="nav_item">
+                <a class="nav_link link" href="#section--4">Contact</a>
+            </li>
+            <li>
+                <a class="cta__btn" href="#">
+                    <i class="fa-solid fa-paper-plane"></i>
+                    Hire me
+                </a>
+            </li>
+        </ul>
+
+        <div class="nav-responsive-buttons">
+            <i class="fa-solid fa-bars"></i>
+            <i class="fa-solid fa-xmark nav-close-btn"></i>
+        </div>
+    </nav>
+
+    <div class="nav-mobile">
+        <a class="nav-mobile-link link" href="#section--1">Projects</a>
+        <a class="nav-mobile-link link" href="#section--2">Skills</a>
+        <a class="nav-mobile-link link" href="#section--3">About</a>
+        <a class="nav-mobile-link link" href="#section--4">Contact</a>
+        <button type="button" class="nav-mobile-cta"><i class="fa-solid fa-paper-plane"></i>Hire me</button>
+    </div>
+    <section class="hero-section" id="hero">
+        <div class="hero-inner">
+            <div class="hero-eyebrow fade-up">
+                <span class="typewriter-role">Frontend Developer</span>
+            </div>
+            <h1 class="hero-title fade-up">
+                <span class="hero-name" id="hero-name">
+                    <span class="letter">R</span>
+                    <span class="letter">a</span>
+                    <span class="letter">l</span>
+                    <span class="letter">p</span>
+                    <span class="letter space">&nbsp;</span>
+                    <span class="letter italic-part">L</span>
+                    <span class="letter italic-part">a</span>
+                    <span class="letter italic-part">u</span>
+                    <span class="letter italic-part">r</span>
+                    <span class="letter italic-part">e</span>
+                    <span class="letter italic-part">n</span>
+                </span>
+            </h1>
+
+            <div class="hero-divider-line fade-up"></div>
+
+            <p class="hero-desc fade-up">
+                I build clean, responsive web interfaces focused on performance and
+                user experience — turning ideas into polished, functional products.
+            </p>
+
+            <div class="hero-actions fade-up">
+                <a href="#section--1" class="btn-primary">
+                    <i class="fa-solid fa-arrow-down"></i>
+                    View projects
+                </a>
+                <a href="#section--4" class="btn-secondary">
+                    Get in touch
+                </a>
+            </div>
+
+        </div>
+    </section>
+    <section class="projects-section" id="section--1">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 class="project-title">Selected work</h2>
+                <span class="project-count"></span>
+            </div>
+
+
+            <div class="projects-grid featured" id="projects">
+                <!-- CARD 1 -->
+                <div class="project-card fade-up" data-video="./videos/demo_project.mp4">
+                    <div class="project-thumb">
+                        <i class="fa-solid fa-list-check project-thumb-icon"></i>
+                        <div class="play-overlay">
+                            <div class="play-btn">
+                                <i class="fa-solid fa-play"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-header">
+                            <h2 class="project-name">Taskly</h2>
+                            <span class="project-type-label">2026 · WEB APP</span>
+                        </div>
+                        <p class="project-desc">A minimalist to-do list web app with task filtering, priority levels,
+                            and a
+                            clean editorial UI. Built with vanilla HTML, CSS, and JavaScript.</p>
+
+                        <div class="project-footer">
+
+                            <div class="project-tags">
+                                <span class="tag">HTML</span>
+                                <span class="tag">CSS</span>
+                                <span class="tag">JAVASCRIPT</span>
+                            </div>
+                            <div class="project-arrow">
+                                <a class="project-link" href="https://taskly-t1tm.onrender.com" target="_blank"
+                                    rel="noopener">View
+                                    project </a>
+                                <i class="fa-solid fa-arrow-right"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section class="skills-section" id="section--2">
+        <div class="container">
+            <div class="section-header fade-up">
+                <h2 class="skills-title">Skills & Stack</h2>
+                <span class="skills-count">What I work with</span>
+            </div>
+
+            <div class="skills-grid fade-up">
+
+                <!-- LANGUAGES -->
+                <div class="skill-group">
+                    <label class="skill-group-label">Languages</label>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-brands fa-html5"></i> HTML5</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill html-fill"></div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-brands fa-css3-alt"></i> CSS3</span>
+                                <span class="skill-level">Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill css-fill"></div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-brands fa-js"></i> JavaScript</span>
+                                <span class="skill-level">Beginner-Intermediate</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill js-fill"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- TOOLS & STACK -->
+                <div class="skill-group">
+                    <label class="skill-group-label">Tools & Workflow</label>
+                    <ul class="skill-list">
+
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-brands fa-git-alt"></i>Git</span>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill git-fill"></div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-brands fa-github"></i></i>Github</span>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill github-fill"></div>
+                            </div>
+                        </li>
+
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-solid fa-code"></i>VS Code</span>
+                                <span class="skill-level ">Beginner</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill vscode-fill"></div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <!-- CURRENT LEARNING -->
+                <div class="skill-group">
+                    <label class="skill-group-label">Current learning</label>
+                    <ul class="skill-list">
+                        <li class="skill-item">
+                            <div class="skill-name">
+                                <span><i class="fa-brands fa-react"></i> React</span>
+                                <span class="skill-level">Beginner</span>
+                            </div>
+                            <div class="skill-bar">
+                                <div class="skill-fill react-fill"></div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <section class="about-section" id="section--3">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-photo fade-up">
+                    <span>Photo here</span>
+                </div>
+                <div class="fade-up">
+                    <label class="about-label" for="about-me">About me</label>
+                    <h2 class="about-heading">Passionate about building things for the web.</h2>
+                    <p class="about-text">
+                        I'm Ralp Lauren, a frontend developer focused on crafting clean, user-friendly web interfaces. I
+                        love the intersection of design and code — where good layout, typography, and interactivity come
+                        together to create great experiences.
+
+                        I build projects from scratch using vanilla HTML, CSS, and JavaScript, and I'm constantly
+                        expanding my skills. Every project is an opportunity to learn something new.
+                    </p>
+                    <p class="about-text">
+                        I build projects from scratch using vanilla HTML, CSS, and JavaScript, and I'm constantly
+                        expanding my skills. Every project is an opportunity to learn something new.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="contact-section" id="section--4">
+        <div class="contact-inner">
+            <label class="contact-label fade-up">
+                Let's work together
+            </label>
+            <h2 class="contact-heading fade-up">
+                Have a project
+                <br>
+                <em>in mind?</em>
+            </h2>
+            <p class="contact-desc fade-up">I'm currently open to freelance work and full-time opportunities. Feel free
+                to reach
+                out — I'd love to hear about what you're building.
+            </p>
+
+
+            <div class="contact-actions fade-up">
+                <a href="mailto:hello@" class="btn-email">
+                    <i class="fa-solid fa-envelope"></i>
+                    Send an email
+                </a>
+                <a href="#" class="btn-CV">
+                    <i class="fa-solid fa-download"></i>
+                    Download CV
+                </a>
+            </div>
+
+            <div class="social-links fade-up">
+                <!-- Github -->
+                <a href="#" class="social-link" title="Github">
+                    <i class="fa-brands fa-github-alt"></i>
+                </a>
+                <!-- LinkedIn -->
+                <a href="#" class="social-link" title="LinkedIn">
+                    <i class="fa-brands fa-linkedin-in linkedIn"></i>
+                </a>
+                <!-- Twitter / X -->
+                <a href="#" class="social-link" title="Twitter / X">
+                    <i class="fa-brands fa-x-twitter twitter"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <span class="footer-copy fade-up">© 2026 Ralp Lauren. All rights reserved.</span>
+        <button type="button" class="footer-back fade-up">Back to top <i class="fa-solid fa-arrow-up"></i></button>
+    </footer>
+
+
+    <!-- VIDEO MODAL -->
+    <div class="video-modal" id="videoModal">
+        <div class="video-modal-backdrop"></div>
+        <div class="video-modal-box">
+            <div class="video-modal-header">
+                <span class="video-modal-title" id="videoModalTitle">Project Demo</span>
+                <button type="button" class="video-modal-close" title="Close video modal"
+                    aria-label="Close video modal">
+                    <i class="fa-solid fa-xmark modal-close"></i>
+                </button>
+            </div>
+            <video class="video-modal-player" id="videoModalPlayer" controls>
+                <source id="videoModalSource" src="./videos/demo_project.mp4" type="video/mp4">
+                Your browser doest not support the video tag.
+            </video>
+        </div>
+    </div>
+
+    <script src="script.js" defer></script>
+</body>
+
+</html>

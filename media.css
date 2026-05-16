@@ -1,0 +1,87 @@
+@media (max-width: 1279px) {
+}
+
+@media (max-width: 1023px) {
+  nav {
+    padding: 0 33px;
+  }
+}
+
+@media (max-width: 860px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .projects-section,
+  .skills-section,
+  .about-section {
+    padding: 96px 15px;
+  }
+
+  .nav__links {
+    display: none;
+  }
+  .nav-responsive-buttons {
+    display: block;
+    cursor: pointer;
+  }
+
+  .hero-divider-line {
+    height: 40px;
+    margin: 24px auto;
+  }
+
+  .hero-actions {
+    max-width: 300px;
+  }
+
+  .btn-primary,
+  .btn-secondary {
+    width: 100%;
+    max-width: 280px;
+    padding: 18px 28px;
+  }
+  .skills-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 32px;
+  }
+  .about-photo {
+    aspect-ratio: 4/3;
+  }
+
+  .contact-section {
+    padding: 64px 15px;
+  }
+
+  .contact-actions {
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  .btn-email,
+  .btn-CV {
+    width: 100%;
+    max-width: 280px;
+    padding: 18px 28px;
+  }
+}
+
+/* Small mobile */
+@media (max-width: 479px) {
+  .section-header {
+    display: grid;
+    gap: 5px 0;
+  }
+
+  footer {
+    flex-direction: column;
+    justify-content: center;
+    gap: 15px 0;
+  }
+}

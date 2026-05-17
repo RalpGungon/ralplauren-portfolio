@@ -55,10 +55,6 @@
     aspect-ratio: 4/3;
   }
 
-  .contact-section {
-    padding: 64px 15px;
-  }
-
   .contact-actions {
     flex-direction: column;
     max-width: 300px;
